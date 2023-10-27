@@ -9,7 +9,7 @@ cd ./corectrl
 apt-get build-dep ./ -y
 
 # Build package
-LOGNAME=root dh_make --createorig -y -l -p corectrl_1.4.0-git
+LOGNAME=root dh_make --createorig -y -l -p corectrl_1.4.1-git
 dpkg-buildpackage
 
 # Move the debs to output
